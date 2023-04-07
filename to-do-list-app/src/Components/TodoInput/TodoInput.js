@@ -1,4 +1,4 @@
-import React, { UseState } from "react";
+import React, { useState } from "react";
 
 const TodoInput = (props) => {
   const [inputValue, setInputValue] = useState("");
@@ -20,3 +20,5 @@ const TodoInput = (props) => {
     </form>
   );
 };
+
+export default TodoInput;
